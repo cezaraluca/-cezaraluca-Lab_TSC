@@ -20,8 +20,8 @@ if {$compile_on || [batch_mode] == 0} {
 }
 
 # Load project
-  eval vsim -novopt -quiet -nocoverage +notimingchecks +nowarnTSCALE -sva top
-# eval vsim -novopt -quiet -coverage -notogglevlogints +notimingchecks +nowarnTSCALE +TESTNAME=$1 -sva top
+  eval vsim  -quiet -voptargs=+acc -nocoverage +notimingchecks +nowarnTSCALE -sva top
+# eval vsim  -quiet -coverage -notogglevlogints +notimingchecks +nowarnTSCALE +TESTNAME=$1 -sva top
 
 # Run log/wave commands
 # Batch_mode = 0 [GUI_mode]; Batch_mode = 1 [regress_mode]
