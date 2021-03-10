@@ -1,0 +1,86 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/sergiu.galaju/Desktop/univ/Anul 2021/lab3/sim
+vinstr_register
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 DXx4 work 18 instr_register_pkg 0 22 >a9`VGIJ]l?FjT9WDXmg83
+Z3 !s110 1615377157
+!i10b 1
+!s100 ?7jnUDkiR3iLk^7PaS=ja1
+ID@3VM?:5E]M=MTKPK7Yo50
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 instr_register_sv_unit
+S1
+R0
+w1614777440
+8../../lab2/lab_dut/instr_register.sv
+F../../lab2/lab_dut/instr_register.sv
+L0 9
+Z5 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z6 !s108 1615377157.000000
+Z7 !s107 ../lab02_clocking_blocks/top.sv|../../lab2/lab_dut/instr_register.sv|../../lab2/lab_dut/instr_register_pkg.sv|
+Z8 !s90 -reportprogress|300|-sv|-timescale|1ps/1ps|-work|work|-f|sources.txt|
+!s101 -O0
+!i113 1
+Z9 o-sv -timescale 1ps/1ps -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Z10 !s92 -sv -timescale 1ps/1ps -work work +incdir+../../lab_dut +incdir+../../lab_dut +incdir+../lab02_clocking_blocks -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Xinstr_register_pkg
+R1
+R3
+!i10b 1
+!s100 YT=bn^^oB9BJ`h54KSKSk1
+I>a9`VGIJ]l?FjT9WDXmg83
+V>a9`VGIJ]l?FjT9WDXmg83
+S1
+R0
+w1614777449
+8../../lab2/lab_dut/instr_register_pkg.sv
+F../../lab2/lab_dut/instr_register_pkg.sv
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+!i113 1
+R9
+R10
+vtop
+R1
+R2
+R3
+!i10b 1
+!s100 A8GaLRn63a<8kK]6[T5F62
+Ieaz5]2j7LcBE3=5F>bLlz1
+R4
+!s105 top_sv_unit
+S1
+R0
+w1470039076
+8../lab02_clocking_blocks/top.sv
+F../lab02_clocking_blocks/top.sv
+L0 10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+!i113 1
+R9
+R10

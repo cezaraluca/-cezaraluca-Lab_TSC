@@ -1,0 +1,40 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/andre/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/andrei/TSC_Lab/lab2/test
+T_opt
+!s110 1614788983
+VDUA2A4zY>@>zNh`7aOVL_3
+04 4 4 work test fast 0
+=1-305a3abc3a20-603fb977-26d-39ac
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+vtest
+!s110 1614788954
+!i10b 1
+!s100 UMPJ7EaNf`K3CO`bPi<`Q2
+I:S;GihN801gOAkXVNC34N0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1614777644
+8C:/Users/andre/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/andrei/TSC_Lab/lab2/test/test.v
+FC:/Users/andre/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/andrei/TSC_Lab/lab2/test/test.v
+L0 7
+OL;L;10.7;67
+r1
+!s85 0
+31
+!s108 1614788954.000000
+!s107 C:/Users/andre/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/andrei/TSC_Lab/lab2/test/test.v|
+!s90 -reportprogress|300|-work|work|C:/Users/andre/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/andrei/TSC_Lab/lab2/test/test.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
