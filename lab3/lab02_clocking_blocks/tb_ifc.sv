@@ -23,5 +23,16 @@ interface tb_ifc (input logic clk);
 
   // ADD CODE TO DEFINE A CLOCKING BLOCK WITH INPUT AND OUTPUT SKEWS
 
+  clocking cb @(posedge clk);
+    output load_en;
+    output reset_n;
+    output opcode;
+    output operand_a;
+    output operand_b;
+    output write;
+    input instruction_t;
+
+  endclocking
+
 endinterface: tb_ifc
 

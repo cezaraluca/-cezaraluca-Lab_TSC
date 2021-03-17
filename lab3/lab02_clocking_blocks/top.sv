@@ -18,22 +18,22 @@ module top;
   logic test_clk;
 
  // instantiate the testbench interface
-  tb_ifc io (.clk(test_clk));
+  tb_ifc ifc (.clk(test_clk));
 
   // connect interface to testbench
-  instr_register_test test (.io(io));
+  instr_register_test test (.ifc(ifc));
 
   // connect interface to design using discrete ports
   instr_register dut (
     .clk(clk),
-    .load_en(io.load_en),
-    .reset_n(io.reset_n),
-    .operand_a(io.operand_a),
-    .operand_b(io.operand_b),
-    .opcode(io.opcode),
-    .write_pointer(io.write_pointer),
-    .read_pointer(io.read_pointer),
-    .instruction_word(io.instruction_word)
+    .load_en(ifc.load_en),
+    .reset_n(ifc.reset_n),
+    .operand_a(ifc.operand_a),
+    .operand_b(ifc.operand_b),
+    .opcode(ifc.opcode),
+    .write_pointer(ifc.write_pointer),
+    .read_pointer(ifc.read_pointer),
+    .instruction_word(ifc.instruction_word)
    );
 
   // clock oscillators
