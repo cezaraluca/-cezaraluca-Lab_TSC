@@ -70,7 +70,7 @@ module instr_register_test (tb_ifc ifc);  // interface port
     // write_pointer values in a later lab
     //
     static int temp = 0;
-    ifc.cb.operand_a     >= $random(seed)%16;                 // between -15 and 15
+    ifc.cb.operand_a     <= $random(seed)%16;                 // between -15 and 15
     ifc.cb.operand_b     <= $unsigned($random)%16;            // between 0 and 15
     ifc.cb.opcode        <= opcode_t'($unsigned($random)%8);  // between 0 and 7, cast to opcode_t type
     ifc.cb.write_pointer <= temp++;
