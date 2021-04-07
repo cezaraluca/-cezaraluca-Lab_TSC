@@ -1,5 +1,5 @@
-../../lab2/lab_dut/instr_register_pkg.sv   	                +incdir+../../lab_dut
-../../lab2/lab_dut/instr_register.sv   	                +incdir+../../lab_dut
-../../lab5/classes/instr_register_test.sv                    +incdir+../../lab5/classes
-../../lab5/classes/tb_ifc.sv                    +incdir+../../lab5/classes
-../../lab5/classes/top.sv                    +incdir+../../lab5/classes
+../lab_dut/instr_register_pkg.sv   	                +incdir+../../lab_dut
+../lab_dut/instr_register.sv   	                +incdir+../../lab_dut
+../lab02_clocking_blocks/instr_register_test.sv                    +incdir+../../lab5/classes
+../lab02_clocking_blocks/tb_ifc.sv                    +incdir+../../lab5/classes
+../lab02_clocking_blocks/top.sv                    +incdir+../../lab5/classes
