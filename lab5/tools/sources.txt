@@ -1,5 +1,5 @@
 ../lab_dut/instr_register_pkg.sv   	                +incdir+../../lab_dut
 ../lab_dut/instr_register.sv   	                +incdir+../../lab_dut
-../classes/instr_register_test.sv                    +incdir+../../lab5/classes
-../classes/tb_ifc.sv                    +incdir+../classes
-../classes/top.sv                    +incdir+../classess
+../classes/instr_register_test.sv                       +incdir+../lab02_clocking_blocks
+../classes/tb_ifc.sv                    		+incdir+../lab02_clocking_blocks
+../classes/top.sv                    			+incdir+../lab02_clocking_blocks
